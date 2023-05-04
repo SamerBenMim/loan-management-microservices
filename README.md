@@ -19,7 +19,7 @@ This module automates the loan process for a banking application, including init
 <img src="https://github.com/Harpia-Vieillot/Harpia-Vieillot/blob/main/resources/hr.gif"/> 
 </p>
 
-<!--  🤔 Accessible endpoints -->
+<!--  🤔 Accessible Endpoints -->
 ##  🤔 Accessible Endpoints
 
 * 
