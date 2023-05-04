@@ -20,7 +20,7 @@ This module automates the loan process for a banking application, including init
 </p>
 
 <!--  🤔 Accessible endpoints -->
-##  🤔 Accessible endpoints
+##  🤔 Accessible Endpoints
 
 * 
 * 
