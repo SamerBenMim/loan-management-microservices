@@ -36,6 +36,12 @@ Credit Service: Establishes the final step by elaborating the credit agreement t
 
 The module uses a local database file and the services run on different ports.
 
+###  🎨  Tesseract OCR 
+
+Tesseract. js is an open source text recognization engine that allows us to extract text from an image. Another word for this technology is Optical Character Recognition, or OCR. OCRs work by scanning images and extracting their text as a machine-readable file.
+
+https://www.npmjs.com/package/tesseract.js/v/2.1.1
+
 ### 🚧 Ports 
 
 The loan management module runs on the following ports: <br/>
