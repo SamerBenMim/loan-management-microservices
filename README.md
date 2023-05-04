@@ -22,10 +22,8 @@ This module automates the loan process for a banking application, including init
 <!--  🤔 Accessible Endpoints -->
 ##  🤔 Accessible Endpoints
 
-* 
-* 
-* 
-* 
+* POST /add , create a new loan request
+
 <h2> <img src="https://github.com/Harpia-Vieillot/Harpia-Vieillot/blob/main/resources/codes.webp" width="50px">  Microservices </h2>
 
 The loan management module is built using a microservice architecture based on the master-worker model. The master service is the Process Service, which orchestrates the workflow of the following services:
@@ -41,9 +39,10 @@ The module uses a local database file and the services run on different ports.
 ### 🚧 Ports 
 
 The loan management module runs on the following ports: <br/>
-3000: Commercial Service <br/>
-3001: Risk Management Service <br/>
-3002: Credit Service <br/>
+3000: Process Service <br/>
+3001: Commercial Service <br/>
+3002: Risk Management Service <br/>
+3003: Credit Service <br/>
 
 ### <img src = "https://github.com/Harpia-Vieillot/Harpia-Vieillot/blob/main/resources/analytics.webp" width="7%"> Local Database
 The loan management module uses a local database file to store relevant information and keep track of loan applications and their statuses.
