@@ -1,0 +1,21 @@
+{
+  "name": "commercialservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon CommercialService.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "express": "^4.18.2",
+    "gm": "^1.25.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.22",
+    "pdf2image": "^1.2.3",
+    "tesseract.js": "^2.1.1"
+  }
+}
