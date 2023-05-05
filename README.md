@@ -14,7 +14,7 @@
 <!-- ABOUT THE APPLICATION -->
 ##  🔭 About The Project
 
-This module automates the loan process for a banking application, including initial borrower eligibility assessment and risk analysis. The system notifies the client if their application has been approved and generates loan agreements and amortization tables for the client to view and download. The system also uses OCR capabilities to extract information from uploaded documents.
+This repository aims to showcase a microservice architecture design for a bank loan management module. The architecture is based on the master-worker pattern, with the ProcessService serving as the master that coordinates the Commercial Service, Risk Management Service, and Credit Service microservices. The focus of this implementation is to demonstrate the effectiveness of this architecture for handling loan management workflows, and thus the code does not include any business logic. The databases have been implemented as local files to keep the implementation simple and easy to understand. Overall, this repository provides an excellent resource for developers who want to learn how to implement microservice architectures in the context of loan management systems.
 <p align="center" width="100%">
 <img src="https://github.com/Harpia-Vieillot/Harpia-Vieillot/blob/main/resources/hr.gif"/> 
 </p>
