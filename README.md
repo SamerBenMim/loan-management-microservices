@@ -60,10 +60,13 @@ To use this module, you'll need to have Node.js and npm installed on your comput
 
 <!-- ⚡ Architecture-->
 ## ⚡ Architecture 
-![architecture](https://user-images.githubusercontent.com/70342285/236192248-683139d2-874c-45e0-831a-392c0358e3c1.png)
-
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/70342285/236192248-683139d2-874c-45e0-831a-392c0358e3c1.png" alt="architecture">
+</p>
 <!--  😄 Demo-->
 ## 😄 Demo 
-
+<p align="center">
+[demo.webm](https://user-images.githubusercontent.com/79151541/236579144-41ef6047-b5aa-4011-acac-36410bbf3949.webm)
+</p>
 
 
