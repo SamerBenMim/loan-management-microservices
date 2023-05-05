@@ -9,7 +9,7 @@ const filePath = "db.txt";
 const upload = multer({ dest: "uploads/images" });
 const axios = require('axios')
 
-app.post("/uploadpdf", upload.single("pdf"), async (req, res) => {
+app.post("/commercialService", upload.single("pdf"), async (req, res) => {
   console.log("Pdf received and sent to OCR succesfully ")
   try {
     const pdfPath = req.file.path;
@@ -63,14 +63,15 @@ app.post("/uploadpdf", upload.single("pdf"), async (req, res) => {
         id,
         amount,
         score,
-        name
+        name,
+        decision : score >= 0.5 ? "accepted" : "rejected"
       }
       
     )
     console.log(
       "acknowledgment sent successfull to ProcessService"
     )
-    return res.json({ id,name,score,amount });
+    return res.json({ id,name,score,amount,        decision : score >= 0.5 ? "accepted" : "rejected"  });
   } catch (error) {
     console.error(error);
     res.status(500).send("Error occurred while processing the PDF file");

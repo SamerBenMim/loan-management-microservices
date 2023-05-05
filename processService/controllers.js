@@ -24,7 +24,7 @@ const RiskManagementController = async (req , res) =>{
     console.log("RiskManagement Acknowledgment received successfully")
     console.log("request sent to Credit Service successfully")
 
-    if(req.body.finalScore >= 0.5){
+    if(req.body.finalScore >= 0.4){
         try{
             let ans  = await axios.post('http://localhost:3003/CreditService',req.body)
             
@@ -38,7 +38,7 @@ const RiskManagementController = async (req , res) =>{
         
     }
 }
-const CreditServiceController =  (req , res) =>{
+const CreditServiceController =  async (req , res) =>{
 
     console.log("CreditService Acknowledgment received successfully")
 }
@@ -49,7 +49,7 @@ const uploadPdfController = async (req , res) =>{
           const formData = new FormData();
           console.log("Pdf uploaded successfully and sent to Commercial Service.")
           formData.append('pdf', req.file.buffer, req.file.originalname);
-          const response = await axios.post('http://localhost:3001/uploadpdf', formData, {
+          const response = await axios.post('http://localhost:3001/commercialService', formData, {
             headers: {
               ...formData.getHeaders(),
             },
